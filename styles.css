@@ -1,0 +1,136 @@
+@font-face {
+    font-family: arbutus;
+    src: url(font/Arbutus-Regular.ttf);
+}
+body {
+    text-align: center;
+    font-family: arbutus, sans-serif;
+    margin: 0;
+}
+#start{
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/rinconpr.jpg);
+    height: 900px;
+    width: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: #CAF0F8;
+    text-shadow:  3px 3px 3px #EF6F6C;
+}
+#firsttext{
+    background-color: #F2C57C;
+    background-size: auto auto;
+    width: 850px;
+    font-size: 50px;
+    margin: 300px auto 0 auto;
+    border-radius: 250px;
+}
+a:link, a:visited{
+    color: #CAF0F8;
+}
+#secondtext{
+    background-color: #F2C57C;
+    background-size: auto auto;
+    width: 500px;
+    font-size: 25px;
+    margin: 50px auto 0 auto;
+    border-radius: 250px;
+}
+.photos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 2000px;
+}
+#beach, #artfestival, #scuba{
+    box-shadow: 0px 0px 50px #EF6F6C;
+}
+
+.photo-size{
+    max-width: 100%;
+    width: 300px;
+    max-height: auto;
+    height: 300px;
+    border-radius: 100%;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2C57C;
+    min-height: 600px;
+    height: auto;
+    min-width: auto;
+    width: 100%;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#thingstd{
+    font-size: 50px;
+    color: #EF6F6C;
+    text-shadow: 3px 3px 3px #CAF0F8;
+    margin: 0 auto 80px auto;
+    max-width: fit-content;
+    max-height: fit-content;
+    display: inline-flex;
+    margin: 0 auto;
+
+}
+.photocaptions{
+    width: 450px;
+    font-size: 25px;
+    display: inline-block;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px #EF6F6C;
+}
+figcaption{
+    text-decoration: 2px underline;
+    font-size: 30px;
+    margin-top: 50px;
+    color: #7FB685;
+    text-shadow: 2px 2px 4px black;
+}
+#section3{
+    background-color: #7FB685;
+    padding: 150px 0 0 0;
+    height: 600px;
+    width: 100%;
+}
+#cardblock{
+    margin: auto auto;
+    display:inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+    height: 500px;
+    border: 3px solid #F2C57C;
+    box-shadow: 0px 0px 10px #EF6F6C;
+}
+#cardtext{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    line-height: 40px;
+}
+#sebpng{
+    width: 300px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px #EF6F6C;
+}
+.yourguide{
+    font-size: 30px;
+    color: #EF6F6C;
+    text-shadow: 3px 3px 3px black;
+}
+#lived{
+    color: #000040;
+    text-shadow: 0 0 6px #EF6F6C;
+    font-size: 20px;
+}
